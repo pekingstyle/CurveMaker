@@ -2,6 +2,14 @@
 Leap Day for GitHub Pages
 by Matt Graham
 */
+
+@font-face{
+     font-family: 'Hiragino Sans GB','Play','Microsoft YaHei';
+            src: local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v4/-SXnV4mZjf4oh1IBw13WZw.woff) format('woff');
+            src: local('Microsoft YaHei UI');
+            font-style: normal;
+}
+
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bold-webfont.eot");
@@ -9,15 +17,6 @@ by Matt Graham
   font-weight: bold;
   font-style: normal;
 }
-
-@font-face{
-     font-family: 'Hiragino Sans GB','Play','Microsoft YaHei';
-            src: local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v4/-SXnV4mZjf4oh1IBw13WZw.woff) format('woff');
-            src: local('Microsoft YaHei UI');
-            font-weight: bold;
-            font-style: normal;
-}
-
 
 @font-face {
   font-family: 'Quattrocento Sans';
@@ -512,7 +511,7 @@ table {
 }
 
 body {
-  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/22px "Hiragino Sans GB","Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
   font-weight: 300;
   margin: 0px;
