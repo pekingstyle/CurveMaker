@@ -10,6 +10,15 @@ by Matt Graham
   font-style: normal;
 }
 
+@font-face{
+     font-family: 'Hiragino Sans GB','Play','Microsoft YaHei';
+            src: local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v4/-SXnV4mZjf4oh1IBw13WZw.woff) format('woff');
+            src: local('Microsoft YaHei UI');
+            font-weight: bold;
+            font-style: normal;
+}
+
+
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bolditalic-webfont.eot");
@@ -115,7 +124,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'Hiragino Sans GB','Play','Microsoft YaHei';
 }
 
 /*
