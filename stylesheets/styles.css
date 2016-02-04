@@ -483,7 +483,8 @@ table {
 }
 
 body {
-  font: 14px/22px "FontAwesome","Helvetica Neue", Helvetica, Arial Unicode MS;
+  font:400 16px/24px "FontAwesome",Roboto,"Helvetica Neue", Helvetica, Arial Unicode MS;
+  -webkit-font-smoothing: antialiased;
   color: #666;
   font-weight: 300;
   margin: 0px;
