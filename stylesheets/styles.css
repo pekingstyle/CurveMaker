@@ -527,6 +527,7 @@ a {
   color: #3399cc;
   font-weight: 400;
   text-decoration: none;
+  font-style:oblique;
 }
 
 a small {
@@ -594,6 +595,7 @@ pre {
 pre code {
   margin: 0px;
   padding: 0px;
+  font-style: italic;
 }
 
 table {
