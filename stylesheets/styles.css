@@ -476,6 +476,8 @@ textarea {
    ========================================================================== */
 /*
  * Remove most spacing between table cells
+ * Modify Font Family, add FontAwesome, Arial Unicode MS, Roboto. Font size:400
+ * Add Webkit-font-smoothing
  */
 table {
   border-collapse: collapse;
@@ -489,6 +491,25 @@ body {
   margin: 0px;
   padding: 0px 0 20px 0px;
   background: url(../images/body-background.png) #eae6d1;
+}
+
+/* Add iframe element, init img/tables/applet
+ * 
+ * 
+ */
+ .frame {
+    position:relative;
+    width:90%;
+    height:400px;
+    float:left;
+    margin:20px 40px 20px 0;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 2px 15px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 2px 15px 0px rgba(0, 0, 0, 0.3);
+    border:5px solid white;
+}
+ 
+ .frame:nth-child(even) {
+    margin-right:0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -562,6 +583,11 @@ blockquote {
   padding: 0 0 0 20px;
   font-style: italic;
 }
+
+/*
+ * Modify Font Family , Add Monaco, Arial Unicode MS
+ * Add Font-style italic
+ */
 
 code {
   font-family: "Lucida Sans", Monaco, Arial Unicode MS ;
